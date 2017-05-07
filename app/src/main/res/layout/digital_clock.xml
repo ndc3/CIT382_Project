@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dip"
+        android:text="You Are Currently in: Activity #2"
+        android:textColor="#adf"
+        android:textSize="22dip" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="560px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="Go to Analog Watch: Activity #1"
+        android:textSize="36px" />
+
+    <DigitalClock
+        android:id="@+id/DigitalClock01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:textColor="#adf"
+        android:textSize="32dip"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/timeInSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="30dip"
+        android:hint="Enter Number of Seconds Here!"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@color/colorPrimaryDark" />
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/startTimer"
+        android:text="Start Timer Countdown" />
+</LinearLayout>

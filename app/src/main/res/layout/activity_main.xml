@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        android:text="You Are Currently in: Activity #1"
+        android:textColor="#fea"
+        android:textSize="22dip" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="560px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="Go To Digital Clock: Activity #2"
+        android:textSize="36px" />
+
+    <AnalogClock
+        android:id="@+id/AnalogClock01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/image9" />
+
+    <Button android:id="@+id/startButton"
+        android:text="Start the Media Player Service"
+        android:textSize="36px"
+        android:layout_width="560px"
+        android:layout_height="150px"
+        android:layout_gravity="center"/>
+
+    <Button android:id="@+id/stopButton"
+        android:text="Stop the Media Player Service"
+        android:textSize="36px"
+        android:layout_width="560px"
+        android:layout_height="150px"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="560px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="Choose the style of the Clock"
+        android:textSize="36px" />
+
+
+</LinearLayout>
